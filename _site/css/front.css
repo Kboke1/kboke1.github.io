@@ -138,6 +138,9 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+li:hover .tooltiptext {
+  visibility: hidden;
+}
 .description {
     display: inline-block;
     color: white;
