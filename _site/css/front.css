@@ -36,11 +36,6 @@ h3 {
     color: white;
     font-weight: thin;
 }
-h4 {
-    color: white;
-    padding-bottom: 20px;
-    font-weight: thin;
-}
 .content {
     padding-top: 100px;
     padding-bottom: 40px;
@@ -123,6 +118,9 @@ li {
     height: auto;
     width: auto;
 }
+.tooltip {
+  position: absolute;
+}
 li:hover description{
     background-color: none;
     transition: none;
@@ -157,5 +155,4 @@ li:hover .tooltiptext {
 .content {
     padding-top: 60px;
 }
-.fa-pdf:before{content:"\f296"}
 }
