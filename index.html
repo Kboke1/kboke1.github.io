@@ -53,6 +53,10 @@ permalink: /
                     <li><div class="tooltip"><a class="fa fa-2x fa-header" href="https://hackerrank.com/{{ site.hackerrank_username }}"><span class="description">HackerRank</span></a><span class="tooltiptext">HackerRank</span></div></li>
                     {% endif %}
 
+                    {% if site.leetcode_username %}
+                    <li><div class="tooltip"><a class="fa fa-2x fa-code" href="https://leetcode.com/{{ site.leetcode_username }}"><span class="description">LeetCode</span></a><span class="tooltiptext">LeetCode</span></div></li>
+                    {% endif %}
+
 
                     {% if site.github_username %}
                     <li><div class="tooltip"><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a><span class="tooltiptext">GitHub</span></div></li>
