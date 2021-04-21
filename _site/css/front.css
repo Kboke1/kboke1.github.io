@@ -114,12 +114,9 @@ li {
     display: block;
     list-style: none;
     margin: 10px 0px;
-    text-align: center;
+    text-align: right;
     height: auto;
     width: auto;
-}
-.tooltip {
-  position: absolute;
 }
 li:hover description{
     background-color: none;
