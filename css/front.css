@@ -57,6 +57,32 @@ li {
     width: 65px;
     height: 65px;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+a:hover .tooltiptext {
+  visibility: visible;
+}
 li:hover {
     color: white;
     text-decoration: none;
@@ -94,6 +120,9 @@ li {
 li:hover {
     background-color: none;
     transition: none;
+}
+a:hover .tooltiptext {
+  visibility: hidden;
 }
 a {
     text-align: justify;
