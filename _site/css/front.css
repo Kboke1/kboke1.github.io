@@ -82,7 +82,7 @@ a {
   border-bottom: 1px dotted black;
 }
 
-.tooltip .tooltiptext {
+.tooltiptext {
   visibility: hidden;
   width: 250px;
   background-color: black;

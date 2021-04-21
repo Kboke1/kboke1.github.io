@@ -75,13 +75,14 @@ a {
     padding: 15px;
     text-decoration: none;
 }
+
 .tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
 }
 
-li .tooltiptext {
+.tooltiptext {
   visibility: hidden;
   width: 250px;
   background-color: black;
