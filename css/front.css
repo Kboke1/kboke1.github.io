@@ -114,7 +114,7 @@ li {
     display: block;
     list-style: none;
     margin: 10px 0px;
-    text-align: right;
+    text-align: center;
     height: auto;
     width: auto;
 }
@@ -146,7 +146,6 @@ li:hover .tooltiptext {
 .description {
     display: inline-block;
     color: white;
-    font-family: Arial;
     margin-left: 40px;
 }
 .content {
